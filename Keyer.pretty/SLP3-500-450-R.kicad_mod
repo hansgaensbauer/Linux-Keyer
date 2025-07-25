@@ -1,0 +1,133 @@
+(footprint "SLP3-500-450-R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Light Pipe")
+	(tags "Light Pipe")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5e391e7a-a1ba-4c4e-b4b4-e7f0bb5a0579")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SLP3-500-450-R"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9a75dedf-4f2f-43c1-830a-02fb62245940")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bivar.com/parts_content/Datasheets/SLP3-XXX-XXX-X.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69aad835-867b-415b-ad17-5d92210957ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Light Pipe"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5dd80958-1ac2-458a-ac86-23b933cae78a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.2 -3.6)
+		(end 2.2 -1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6596ce64-3a04-409e-9aec-3de60c046894")
+	)
+	(fp_rect
+		(start -2.2 1.8)
+		(end 2.2 2.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c4bf8797-1111-4027-82bd-f3d3953db33f")
+	)
+	(fp_rect
+		(start -2.25 -1.8)
+		(end 2.25 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "28b0b0ca-4441-4d74-98fe-65588c967d97")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "748d9c01-0f28-4be9-9167-6efaaf216f9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -1.27 -2.7)
+		(size 1.27 1.27)
+		(drill 1.27)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "d8d59fe5-a4f6-40eb-9931-0d9899b6b9e3")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.27 -2.7)
+		(size 1.27 1.27)
+		(drill 1.27)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "5399ac19-8d37-424e-b736-50ed7cc094fc")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Keyer.pretty/3D/SLP3-500-450-R.step"
+		(offset
+			(xyz -2.56 -7.67 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

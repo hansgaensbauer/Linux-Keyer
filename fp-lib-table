@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Keyer")(type "KiCad")(uri "${KIPRJMOD}/Keyer.pretty")(options "")(descr ""))
+)
